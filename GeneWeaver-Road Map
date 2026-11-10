@@ -1,0 +1,574 @@
+GEN EWEAVER — COMPLETE 30-DAY PROJECT ROADMAP
+
+Project Title
+
+GeneWeaver: GPU-Accelerated CRISPR Alignment Engine
+
+Internship Details
+
+- Company: Infotact Solutions
+- Internship Role: Data Associate L1 Intern
+- Domain: Python Development
+- Project Start Date: 10 November 2026
+- Project End Date: 10 December 2026
+- Project Duration: 1 Month
+
+1. PROJECT OBJECTIVE
+
+Develop a Python-based GPU-Accelerated CRISPR Alignment Engine that processes DNA sequences, performs sequence alignment, identifies matching regions, evaluates alignment accuracy, and compares CPU and GPU execution performance.
+
+The project should demonstrate:
+
+- Python development.
+- DNA sequence processing.
+- CRISPR guide sequence handling.
+- Sequence alignment algorithms.
+- GPU acceleration.
+- Performance optimization.
+- Testing and debugging.
+- GitHub version control.
+- Project documentation.
+
+2. TECHNOLOGY STACK
+
+Programming Language:
+
+- Python 3.x
+
+Libraries:
+
+- NumPy
+- Biopython
+- CuPy or Numba (GPU acceleration, depending on hardware)
+- Matplotlib
+- Pandas
+- Pytest
+
+Development Tools:
+
+- Visual Studio Code
+- Git
+- GitHub
+- Jupyter Notebook (optional)
+
+GPU:
+
+- NVIDIA CUDA-compatible GPU, if available.
+- CPU implementation as a baseline.
+- GPU implementation only when compatible hardware and drivers are available.
+
+3. COMPLETE 30-DAY DEVELOPMENT ROADMAP
+
+PHASE 1: PROJECT UNDERSTANDING AND SETUP
+
+DAY 1 – Project Understanding
+
+- Understand the GeneWeaver project.
+- Learn what CRISPR technology is.
+- Understand DNA sequences.
+- Understand sequence alignment.
+- Identify project requirements.
+
+GitHub Commit:
+docs: add project overview and objectives
+
+DAY 2 – Research and Technical Analysis
+
+- Study CRISPR guide RNA.
+- Understand DNA sequence matching.
+- Learn sequence alignment concepts.
+- Study GPU acceleration.
+- Identify technical challenges.
+
+GitHub Commit:
+docs: add technical research and analysis
+
+DAY 3 – Project Architecture
+
+- Design the system architecture.
+- Identify major project modules.
+- Define input and output formats.
+- Plan CPU and GPU workflows.
+- Prepare development milestones.
+
+GitHub Commit:
+docs: add system architecture
+
+DAY 4 – Python Environment Setup
+
+- Install Python.
+- Configure VS Code.
+- Create a virtual environment.
+- Install required Python libraries.
+- Verify the environment.
+
+GitHub Commit:
+chore: configure Python development environment
+
+DAY 5 – Project Structure
+
+- Create project folders.
+- Create Python modules.
+- Create requirements.txt.
+- Create README.md.
+- Configure GitHub repository.
+
+GitHub Commit:
+chore: initialize GeneWeaver project structure
+
+PHASE 2: CORE PYTHON DEVELOPMENT
+
+DAY 6 – DNA Sequence Input
+
+- Develop DNA sequence input functionality.
+- Accept DNA sequences.
+- Support A, T, G and C nucleotides.
+- Display input sequences.
+
+GitHub Commit:
+feat: implement DNA sequence input
+
+DAY 7 – Sequence Validation
+
+- Validate DNA sequences.
+- Detect invalid nucleotides.
+- Handle empty input.
+- Implement error handling.
+- Test validation functionality.
+
+GitHub Commit:
+feat: implement DNA sequence validation
+
+DAY 8 – Sequence Preprocessing
+
+- Implement sequence preprocessing.
+- Normalize input sequences.
+- Prepare sequences for alignment.
+- Handle different sequence lengths.
+- Test preprocessing functionality.
+
+GitHub Commit:
+feat: implement DNA preprocessing module
+
+DAY 9 – Sequence Alignment Algorithm
+
+- Research suitable alignment algorithms.
+- Implement a basic sequence alignment algorithm.
+- Calculate sequence matching scores.
+- Identify matching regions.
+- Generate alignment results.
+
+GitHub Commit:
+feat: implement sequence alignment algorithm
+
+DAY 10 – Core Algorithm Testing
+
+- Test alignment functionality.
+- Test different DNA sequences.
+- Validate matching scores.
+- Handle edge cases.
+- Fix algorithm errors.
+
+GitHub Commit:
+test: add sequence alignment test cases
+
+PHASE 3: GPU ACCELERATION
+
+DAY 11 – GPU Research
+
+- Understand CPU versus GPU processing.
+- Study CUDA fundamentals.
+- Check hardware compatibility.
+- Select an appropriate GPU framework.
+- Document the framework selection.
+
+GitHub Commit:
+docs: document GPU architecture and framework
+
+DAY 12 – GPU Environment Setup
+
+- Check GPU availability.
+- Verify CUDA compatibility if using NVIDIA.
+- Configure CuPy or Numba if supported.
+- Test GPU execution.
+- Maintain CPU fallback functionality.
+
+GitHub Commit:
+chore: configure GPU acceleration environment
+
+DAY 13 – GPU Alignment Implementation
+
+- Design the GPU computation workflow.
+- Implement GPU-based alignment operations.
+- Transfer suitable computations to GPU.
+- Compare CPU and GPU outputs.
+- Validate correctness.
+
+GitHub Commit:
+feat: implement GPU alignment engine
+
+DAY 14 – Performance Optimization
+
+- Analyze computational bottlenecks.
+- Optimize sequence processing.
+- Reduce unnecessary memory transfers.
+- Improve computational efficiency.
+- Test optimized implementation.
+
+GitHub Commit:
+perf: optimize alignment computation
+
+DAY 15 – CPU and GPU Comparison
+
+- Execute CPU alignment.
+- Execute GPU alignment.
+- Compare alignment results.
+- Measure execution time.
+- Record performance differences.
+
+GitHub Commit:
+test: compare CPU and GPU alignment results
+
+DAY 16 – Benchmarking
+
+- Create benchmark scripts.
+- Test multiple sequence lengths.
+- Record execution time.
+- Calculate performance improvements.
+- Generate benchmark results.
+
+GitHub Commit:
+perf: add CPU GPU benchmarking
+
+PHASE 4: PROJECT INTEGRATION
+
+DAY 17 – Module Integration
+
+- Integrate input module.
+- Integrate preprocessing module.
+- Integrate alignment module.
+- Integrate GPU module.
+- Test the complete workflow.
+
+GitHub Commit:
+feat: integrate GeneWeaver core modules
+
+DAY 18 – CRISPR Guide Sequence Handling
+
+- Implement guide RNA input handling.
+- Validate guide sequences.
+- Identify candidate matching regions.
+- Handle mismatched sequences.
+- Test guide sequence processing.
+
+GitHub Commit:
+feat: implement CRISPR guide sequence handling
+
+DAY 19 – Alignment Result Generation
+
+- Generate alignment results.
+- Display matching regions.
+- Display mismatch information.
+- Calculate alignment scores.
+- Save results in a structured format.
+
+GitHub Commit:
+feat: generate alignment reports
+
+DAY 20 – Error Handling
+
+- Handle invalid inputs.
+- Handle missing data.
+- Handle unsupported GPU hardware.
+- Implement meaningful error messages.
+- Test failure scenarios.
+
+GitHub Commit:
+fix: improve error handling and validation
+
+DAY 21 – Functional Testing
+
+- Test DNA input.
+- Test sequence validation.
+- Test alignment.
+- Test GPU functionality.
+- Test result generation.
+
+GitHub Commit:
+test: expand functional test coverage
+
+DAY 22 – Debugging and Optimization
+
+- Review project code.
+- Fix identified bugs.
+- Improve code quality.
+- Optimize slow operations.
+- Retest integrated modules.
+
+GitHub Commit:
+fix: resolve integration and performance issues
+
+PHASE 5: USER INTERFACE AND FINAL TESTING
+
+DAY 23 – User Interface
+
+- Create a simple user interface or CLI.
+- Accept DNA sequences.
+- Accept CRISPR guide sequences.
+- Allow users to execute alignment.
+- Display processing results.
+
+GitHub Commit:
+feat: add GeneWeaver user interface
+
+DAY 24 – Result Visualization
+
+- Display alignment results.
+- Visualize matching regions.
+- Display sequence mismatches.
+- Generate performance charts.
+- Save visualization outputs.
+
+GitHub Commit:
+feat: add alignment result visualization
+
+DAY 25 – Performance Evaluation
+
+- Execute different test datasets.
+- Compare CPU and GPU execution.
+- Evaluate alignment accuracy.
+- Analyze execution time.
+- Document limitations and results.
+
+GitHub Commit:
+docs: add performance evaluation results
+
+DAY 26 – End-to-End Testing
+
+- Test the complete application.
+- Validate all modules.
+- Test different input scenarios.
+- Verify generated results.
+- Fix remaining issues.
+
+GitHub Commit:
+test: add end-to-end test coverage
+
+PHASE 6: DOCUMENTATION AND FINAL SUBMISSION
+
+DAY 27 – README Documentation
+
+- Write project introduction.
+- Document project objectives.
+- Add technology stack.
+- Explain installation steps.
+- Explain execution steps.
+- Add screenshots and sample outputs.
+
+GitHub Commit:
+docs: finalize project README
+
+DAY 28 – Project Report
+Prepare the final project report with:
+
+- Abstract.
+- Introduction.
+- Problem statement.
+- Project objectives.
+- Existing system.
+- Proposed system.
+- System architecture.
+- Methodology.
+- Implementation.
+- Testing.
+- Performance evaluation.
+- Results.
+- Conclusion.
+- Future scope.
+
+GitHub Commit:
+docs: add final project report
+
+DAY 29 – Presentation Preparation
+
+- Prepare PowerPoint presentation.
+- Explain the project architecture.
+- Demonstrate project modules.
+- Present CPU and GPU comparison.
+- Present test results.
+- Prepare final demonstration.
+
+GitHub Commit:
+docs: prepare final project presentation
+
+DAY 30 – Final Project Review
+
+- Review the entire source code.
+- Run the complete application.
+- Verify all functionalities.
+- Check GitHub repository.
+- Finalize project documentation.
+- Prepare final demonstration.
+- Submit project deliverables.
+
+GitHub Commit:
+release: complete GeneWeaver v1.0
+
+4. DAILY DEVELOPMENT WORKFLOW
+
+Follow this process every day:
+
+1. Understand today's assigned task.
+2. Research the technical concepts.
+3. Review the existing project files.
+4. Implement the functionality.
+5. Run the application.
+6. Test the implementation.
+7. Fix errors.
+8. Review the completed code.
+9. Update project documentation.
+10. Create a meaningful GitHub commit.
+11. Push changes to GitHub.
+12. Prepare the next day's task.
+
+5. DAILY CHATGPT DEVELOPMENT PROMPT
+
+Act as my Senior Python Developer, Software Engineer and Technical Mentor.
+
+I am developing GeneWeaver: GPU-Accelerated CRISPR Alignment Engine.
+
+Today's task: [INSERT DAY AND TASK].
+
+Guide me step by step.
+
+Requirements:
+
+1. Explain the task clearly.
+2. Review my existing project structure.
+3. Provide complete working Python code.
+4. Specify exact file names and locations.
+5. Give installation commands.
+6. Explain how to execute the code in VS Code.
+7. Show expected output.
+8. Provide test cases.
+9. Help me fix errors.
+10. Verify the functionality before marking it complete.
+
+Do not skip steps.
+Do not unnecessarily overwrite working code.
+Do not invent test results.
+Maintain consistency with my existing project architecture.
+
+6. DAILY CODE REVIEW PROMPT
+
+Act as a Senior Software Engineer.
+
+Review today's GeneWeaver implementation.
+
+Check:
+
+- Code correctness.
+- Functionality.
+- Error handling.
+- Code quality.
+- Performance.
+- Test coverage.
+- Project structure.
+
+Identify bugs and suggest improvements.
+
+Give me a clear completion status:
+COMPLETED / NEEDS IMPROVEMENT / NOT COMPLETED.
+
+Do not claim successful testing unless the tests actually pass.
+
+7. DAILY GITHUB COMMIT PROMPT
+
+Act as my GitHub Mentor.
+
+Review today's completed GeneWeaver development work.
+
+Provide:
+
+1. Modified files.
+2. New files.
+3. Git status.
+4. Professional commit message.
+5. Exact Git commands.
+6. Push instructions.
+7. GitHub verification steps.
+8. Next development task.
+
+Use meaningful commits based on actual changes.
+
+Git commands:
+
+git status
+
+git add .
+
+git commit -m "YOUR COMMIT MESSAGE"
+
+git push origin main
+
+git log --oneline -5
+
+8. PROJECT QUALITY REQUIREMENTS
+
+- Maintain clean Python code.
+- Follow modular programming.
+- Use meaningful variable names.
+- Add comments where necessary.
+- Maintain requirements.txt.
+- Write automated tests.
+- Maintain GitHub version control.
+- Avoid hardcoded test results.
+- Validate DNA sequence inputs.
+- Preserve CPU fallback functionality.
+- Verify GPU compatibility.
+- Measure actual performance.
+- Document known limitations.
+
+9. FINAL PROJECT DELIVERABLES
+
+Prepare the following:
+
+1. Complete Python source code.
+2. GitHub repository.
+3. README documentation.
+4. Project architecture diagram.
+5. Project report.
+6. Testing documentation.
+7. CPU and GPU benchmark results, if applicable.
+8. PowerPoint presentation.
+9. Screenshots of application output.
+10. Final project demonstration.
+
+10. FINAL PROJECT SUCCESS CRITERIA
+
+The project should demonstrate:
+
+- Successful DNA sequence input.
+- Correct sequence validation.
+- Working sequence alignment.
+- CRISPR guide sequence handling.
+- GPU acceleration when supported.
+- CPU and GPU result comparison.
+- Performance benchmarking.
+- Reliable error handling.
+- Proper documentation.
+- Successful final demonstration.
+
+IMPORTANT INSTRUCTIONS:
+
+This is a one-month internship project. Follow the 30-day roadmap in order.
+
+Do not jump to the next phase without validating the previous phase.
+
+If a task is incomplete, help me finish it before moving forward.
+
+If GPU hardware is unavailable, complete and validate the CPU baseline and document the GPU implementation limitations honestly.
+
+Work with me like a real industry project mentor. Explain everything in beginner-friendly English.
+
+My goal is to complete GeneWeaver professionally and submit a high-quality project to Infotact Solutions.
