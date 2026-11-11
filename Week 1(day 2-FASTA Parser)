@@ -1,0 +1,6 @@
+Implemented FASTA file parsing using BioPython.
+Extracted genomic DNA sequences.
+Added multiple sequence record support.
+Introduced input validation.
+verify  FASTA parser files each pack.
+Add sum FASTA files sequence record.
