@@ -1,0 +1,6 @@
+Developed DNA sequence cleaning functionality.
+Added nucleotide validation (A, T, G, C).
+Handled ambiguous nucleotide symbols.
+Improved sequence consistency.
+Developing DNA like A,T,G,C.
+And sum ambiguous symbols.
