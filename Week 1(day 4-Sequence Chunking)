@@ -1,0 +1,5 @@
+Implemented genomic sequence chunking.
+Added configurable chunk sizes.
+Introduced overlapping sequence regions.
+Prepared genomic data for parallel processing.
+implement sequence processes.
