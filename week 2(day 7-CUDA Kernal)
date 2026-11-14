@@ -1,0 +1,5 @@
+Developed initial CUDA kernel using @cuda.jit.
+Implemented parallel DNA sequence comparisons.
+Added nucleotide matching logic.
+Introduced mismatch detection.
+mostly implement in this website.
