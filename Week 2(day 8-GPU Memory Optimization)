@@ -1,0 +1,5 @@
+Implemented CPU-to-GPU data transfer.
+Added GPU memory allocation.
+Developed GPU-to-CPU result retrieval.
+Improved genomic chunk processing.
+implement geneweaver genetis.
