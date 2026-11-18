@@ -1,0 +1,7 @@
+Established the GeneWeaver project architecture and configured the Python development environment.
+Implemented genomic FASTA file parsing using BioPython.
+Developed DNA sequence cleaning and nucleotide validation functionality.
+Implemented genomic sequence chunking with configurable sizes and overlap handling.
+Developed a baseline CPU-based CRISPR sequence alignment algorithm.
+Added mismatch detection and guide RNA matching functionality.
+Conducted initial CPU performance benchmarking and documented execution time.
