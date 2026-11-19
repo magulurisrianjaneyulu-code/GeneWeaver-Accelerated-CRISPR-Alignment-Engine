@@ -1,0 +1,12 @@
+- Established CPU baseline execution measurements.
+- Developed the initial GPU-accelerated alignment implementation.
+- Started CPU versus GPU performance comparison.
+- Evaluated GPU memory consumption and processing efficiency.
+Bioinformatics Pipeline
+- Implemented FASTA parsing and sequence preprocessing.
+- Added genomic chunking and CRISPR guide RNA matching.
+- Tested sequence alignment and mismatch detection.
+Dashboard Development
+- Created the initial Textual terminal interface.
+- Added genomic processing progress indicators.
+- Prepared GPU monitoring and alignment statistics components
